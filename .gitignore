@@ -1,0 +1,4 @@
+__pycache__/
+uploaded_notes/
+faiss_index/
+.env

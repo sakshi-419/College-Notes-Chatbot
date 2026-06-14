@@ -1,0 +1,91 @@
+/* Background */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #020617,
+        #0f172a,
+        #111827
+    );
+    color: white;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #081122;
+    border-right: 1px solid #1f2937;
+}
+
+/* Sidebar title */
+.sidebar-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.sidebar-subtitle {
+    color: #9ca3af;
+    margin-bottom: 25px;
+}
+
+/* Hero Section */
+.hero-card {
+    text-align: center;
+    padding: 40px;
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255,255,255,0.1);
+
+    margin-bottom: 30px;
+}
+
+.hero-card h1 {
+    color: #8b5cf6;
+    font-size: 50px;
+}
+
+.hero-card p {
+    color: #d1d5db;
+    font-size: 18px;
+}
+
+/* User Chat */
+[data-testid="chatAvatarIcon-user"] {
+    background: #2563eb;
+}
+
+/* Assistant Chat */
+[data-testid="chatAvatarIcon-assistant"] {
+    background: #8b5cf6;
+}
+
+/* Chat messages */
+.stChatMessage {
+    border-radius: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Input Box */
+.stChatInput {
+    border-radius: 20px;
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    background: #1e293b;
+    color: white;
+    border-radius: 12px;
+    border: 1px solid #334155;
+    margin-bottom: 8px;
+}
+
+.stButton > button:hover {
+    background: #8b5cf6;
+    border: none;
+}
