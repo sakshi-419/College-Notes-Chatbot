@@ -9,4 +9,15 @@ sentence-transformers
 pypdf
 python-dotenv
 huggingface_hub
+google-generativeastreamlit
+langchain
+langchain-community
+langchain-google-genai
+langchain-huggingface
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+pypdf
+python-dotenv
+huggingface_hub
 google-generativeai
